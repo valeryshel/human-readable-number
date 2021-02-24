@@ -68,7 +68,7 @@ module.exports = function toReadable (number) {
                 for (let i = 0; i < c.length; i++) {
                     if (str[1] == i) { // [1] элемену str == i эл-ту массива с
                         result.push(c[i]);
-                        if (number % 10 == 0) return result.join(" ");
+                        if (number % 10 == 0) return result.join(" "); // проверка для 20,30,40,50,60,70,80,90
                     }
                 }
                 for (let i = 0; i < a.length; i++) {
